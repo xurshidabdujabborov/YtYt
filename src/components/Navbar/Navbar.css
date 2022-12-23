@@ -1,0 +1,58 @@
+nav {
+    width: 100%;
+    padding: 30px 0px;
+    background-color: white;
+}
+
+nav .logo {
+    text-align: left;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0px 30px;
+}
+
+nav ul li a {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #22253B;
+}
+
+nav .right {
+    justify-content: right;
+    text-align: right;
+}
+
+nav .right button {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 13px;
+    color: white;
+    background: #38BFF2;
+    border-radius: 34px;
+    padding: 8px 24px;
+    border: none;
+}
+@media(max-width: 900px){
+    nav .logo{
+        text-align: center;
+    }
+    nav ul{
+        width: 100%;
+        margin-top: 30px;
+        flex-direction: column;
+    }
+    nav ul li{
+        width: 100%;
+        margin: 10px 0px;
+    }
+}

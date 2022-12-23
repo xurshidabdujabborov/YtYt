@@ -1,0 +1,42 @@
+.Bottom {
+    width: 100%;
+    margin-top: 80px;
+}
+
+.Bottom .bacround {
+    background: #EAF2F5;
+    border-radius: 30px;
+    padding: 60px 50px;
+}
+
+.Bottom .bacround .flex {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.Bottom .bacround .flex p.text {
+    margin-left: 30px;
+}
+
+.Bottom .bacround .right {
+    display: flex;
+    justify-content: right;
+}
+
+.Bottom .bacround .right button {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: -0.03em;
+    color: white;
+    border: none;
+    padding: 27px 50px;
+    background: #F15525;
+    border-radius: 82px;
+}
+.Bottom .bacround .right .css-i4bv87-MuiSvgIcon-root{
+    margin-left: 15px;  
+}

@@ -1,0 +1,43 @@
+.Center {
+    width: 100%;
+    margin-top: 150px;
+}
+
+.Center .text {
+    text-align: left;
+    background: #EAF2F5;
+    border-radius: 40px;
+    padding: 50px 0px;
+    padding-left: 100px;
+}
+
+.Center .text h4 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 30px;
+    color: black;
+}
+
+.Center .text p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #22253B;
+    margin-top: 20px;
+}
+.Center .img{
+    text-align: left;
+}
+.Center .img1{
+    text-align: right;
+}
+@media(max-width: 900px){
+    .Center .img{
+        text-align: center;
+       margin: 50px 0px;
+    }
+    .Center .img1{
+        text-align: center;
+        margin: 50px 0px;
+    }
+}
